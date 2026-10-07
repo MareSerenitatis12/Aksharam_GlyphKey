@@ -1,0 +1,262 @@
+
+### Direct bodies
+
+| Glyph | Phonetic |
+|---|---|
+| ♈ | `ash` |
+| ♉ | `us` |
+| ♊ | `eri` |
+| ♋ | `en` |
+| ♑ | `on` |
+| ♍ | `yam` |
+| ♎ | `me` |
+| ♏ | `da` |
+| ♐ | `ka` |
+| ♌ | `myr` |
+| ♒ | `nyx` |
+| ♓ | `ai` |
+| ⏣ | `fe` |
+| ⬡ | `al` |
+| ✡ | `abd` |
+| ⚝ | `ahn` |
+| ❂ | `el` |
+| ꙮ | `so` |
+| ❈ | `ot` |
+| ⧗ | `dr` |
+| ⊛ | `ri` |
+| ❄ | `ek` |
+| ⚛ | `av` |
+| ⌬ | `ig` |
+
+### Courts — Fetu row
+
+| Glyph | Phonetic |
+|---|---|
+| އ | `ahl` |
+| ށ | `uhh` |
+| ނ | `ehr` |
+| ރ | `ish` |
+| ޱ | `ora` |
+| ޅ | `ahm` |
+| ކ | `ke` |
+| ވ | `ehm` |
+| މ | `ahd` |
+| ފ | `fur` |
+| ދ | `a` |
+| ތ | `era` |
+
+### Courts — Kal row
+
+| Glyph | Phonetic |
+|---|---|
+| ᛁ | `kur` |
+| ᛂ | `lur` |
+| ⌑ | `ahr` |
+| ᛄ | `in` |
+| ᛇ | `na` |
+| ᛉ | `fel` |
+| ᛊ | `har` |
+| ᛋ | `mer` |
+| ᛌ | `o` |
+| ᛍ | `pe` |
+| ᛎ | `zhi` |
+| ᛏ | `cl` |
+
+### Courts — Babdh row
+
+| Glyph | Phonetic |
+|---|---|
+| ᚠ | `hr` |
+| ᚢ | `kr` |
+| ᚦ | `vr` |
+| ᚨ | `py` |
+| ᚱ | `oa` |
+| ᚲ | `lc` |
+| ᚷ | `nu` |
+| ᚹ | `st` |
+| ᚺ | `or` |
+| ᚾ | `bon` |
+| ᚿ | `ti` |
+| ᛃ | `fa` |
+
+### Courts — Ahn row
+
+| Glyph | Phonetic |
+|---|---|
+| ≾ | `abd` |
+| ᭨ | `ym` |
+| ᭡ | `oh` |
+| ⛧ | `zhi` |
+| 𝀖 | `ol` |
+| ༺ | `i` |
+| ᭢ | `re` |
+| ⦾ | `se` |
+| ⦽ | `u` |
+| 𝀵 | `fay` |
+| 𝀟 | `ha` |
+| ༻ | `ps` |
+
+### Courts — Vel row
+
+| Glyph | Phonetic |
+|---|---|
+| ⴰ | `era` |
+| ⴱ | `tar` |
+| ⴳ | `ghe` |
+| ⴷ | `rel` |
+| ⴼ | `ful` |
+| ⴽ | `ker` |
+| ⵀ | `hoh` |
+| ⵃ | `hr` |
+| ⵄ | `ar` |
+| ⵇ | `ay` |
+| ⵉ | `urn` |
+| ⵊ | `je` |
+
+### Courts — Sor row
+
+| Glyph | Phonetic |
+|---|---|
+| ꠇ | `fi` |
+| ꠈ | `lun` |
+| ꠉ | `aru` |
+| ꠊ | `es` |
+| ⎉ | `os` |
+| ꠌ | `ahm` |
+| ꠍ | `ti` |
+| ꠎ | `ey` |
+| ꠏ | `sih` |
+| ꠐ | `hri` |
+| ꠑ | `yo` |
+| ꠒ | `thal` |
+
+### Courts — Koth row
+
+| Glyph | Phonetic |
+|---|---|
+| 🝏 | `e` |
+| 🜁 | `se` |
+| 🜃 | `lin` |
+| 🜄 | `bri` |
+| 🜅 | `inn` |
+| 🜆 | `subh` |
+| 🜇 | `wel` |
+| 🜈 | `m` |
+| 🜉 | `esh` |
+| 🜊 | `so` |
+| 🜋 | `rhu` |
+| 🜌 | `del` |
+
+### Courts — Dreh row
+
+| Glyph | Phonetic |
+|---|---|
+| 𒀀 | `na` |
+| 𒀭 | `ur` |
+| 𒁀 | `nih` |
+| 𒂊 | `azh` |
+| 𒄑 | `hol` |
+| 𒅆 | `gur` |
+| 𒆠 | `ves` |
+| 𒇽 | `rim` |
+| 𒉌 | `dem` |
+| 𒊕 | `oth` |
+| 𒋗 | `izh` |
+| 𒌋 | `shu` |
+
+### Courts — Rhea row
+
+| Glyph | Phonetic |
+|---|---|
+| ⶀ | `ia` |
+| ⶁ | `zoh` |
+| ⶂ | `her` |
+| ⶃ | `druh` |
+| ⶄ | `fhel` |
+| ⶅ | `ral` |
+| ⶆ | `kra` |
+| ⶇ | `and` |
+| ⶈ | `deb` |
+| ⶉ | `kol` |
+| ⶊ | `fra` |
+| ⶋ | `us` |
+
+### Courts — Zhek row
+
+| Glyph | Phonetic |
+|---|---|
+| 𐤠 | `hin` |
+| 𐤡 | `ser` |
+| 𐤢 | `ama` |
+| 𐤣 | `tohr` |
+| 𐤤 | `pel` |
+| 𐤥 | `khi` |
+| 𐤦 | `yth` |
+| 𐤧 | `mel` |
+| 𐤨 | `pha` |
+| 𐤩 | `okh` |
+| 𐤪 | `od` |
+| 𐤫 | `ume` |
+
+### Courts — Shav row
+
+| Glyph | Phonetic |
+|---|---|
+| 𐠀 | `ohm` |
+| 𐠁 | `is` |
+| 𐠂 | `ta` |
+| 𐠃 | `koh` |
+| 𐠄 | `yh` |
+| 𐠅 | `st` |
+| 𐠝 | `os` |
+| 𐠞 | `poru` |
+| 𐠈 | `orm` |
+| 𐠜 | `rev` |
+| 𐠋 | `imh` |
+| 𐠌 | `ihnj` |
+
+### Courts — Trig row
+
+| Glyph | Phonetic |
+|---|---|
+| 𐔀 | `ig` |
+| 𐔁 | `pe` |
+| 𐔂 | `du` |
+| 𐔃 | `oma` |
+| 𐔄 | `eru` |
+| 𐔅 | `ta` |
+| 𐔆 | `opa` |
+| 𐔇 | `tin` |
+| 𐔈 | `rest` |
+| 𐔉 | `sil` |
+| 𐔊 | `slun` |
+| 𐔋 | `ete` |
+
+### Numerical / terminal speaking bodies
+
+| Glyph | Phonetic |
+|---|---|
+| ⛎ | `zen` |
+| ☿ | `pon` |
+| ♀ | `ael` |
+| ᳀ | `gaya` |
+| ♂ | `wil` |
+| ♃ | `pay` |
+| ♄ | `ehveh` |
+| ⛢ | `ahc` |
+| ♆ | `no` |
+| ♇ | `noo` |
+| ☽ | `av` |
+| ☾ | `veh` |
+
+### Enochian bodies
+
+`߷ th`  
+`ཪ he`  
+`⚶ de`  
+`🜚 pa`  
+`🜛 ma`  
+`🜗 in`  
+`🜖 er`  
+`🜕 at`  
+`🜔 oo`

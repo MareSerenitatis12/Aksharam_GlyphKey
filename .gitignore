@@ -1,0 +1,41 @@
+# Aksharam GlyphKey — generated build intermediates only
+build/generated/
+build/package/aksharam_glyphkey.kmx
+build/package/aksharam_glyphkey.kps
+
+# Final Keyman keyboard packages are public release artifacts — DO NOT IGNORE
+!build/linux_ubuntu/
+!build/linux_ubuntu/aksharam_glyphkey.kmp
+!build/windows/
+!build/windows/aksharam_glyphkey.kmp
+!build/mac/
+!build/mac/aksharam_glyphkey.kmp
+
+# Test/build logs and generated reports
+tests/*.log
+tests/registry_report.json
+
+# Local working history / scratch material
+archive/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*~
+*.swp
+*.swo
+.latex/
+latex/
+Latex/
+tests/
+Aksharam_GlyphKey_Latex/
+assets/
+build/tests/
+
+# Python / notebook caches
+__pycache__/
+.ipynb_checkpoints/
+
+# Local Keyman reference documentation
+keyman_linux/
+keyman_linux_docs/
