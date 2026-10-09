@@ -31,15 +31,11 @@ cc -std=c11 "$TESTS/keyman_core_probe.c"     -o "$GENERATED/keyman_core_probe"  
 
 python3 "$TESTS/validate_keyboard.py"
 python3 "$TESTS/full_keyboard_conformance.py"
+python3 "$TESTS/host_controls_conformance.py"
+python3 "$TESTS/host_activation_test.py"
+python3 "$TESTS/host_activation_test.py"
 
-# Build intermediates are disposable. Keep only reusable source/package assets and
-# the finalized platform installers.
-rm -rf "$GENERATED"
-rm -f "$PACKAGE/aksharam_glyphkey.kmx" \
-      "$PACKAGE/aksharam_glyphkey.kps" \
-      "$PACKAGE/aksharam_glyphkey_desktop.kps" \
-      "$PACKAGE/selection_math_map.json"
-find "$BUILD_DIR" -type d -name '__pycache__' -prune -exec rm -rf {} + 2>/dev/null || true
+# Retain generated source and compiled artifacts for reproducible 3.0 maintenance.
 
 printf 'Linux/Ubuntu installer: %s\n' "$LINUX/aksharam_glyphkey.kmp"
 printf 'Windows installer: %s\n' "$WINDOWS/aksharam_glyphkey.kmp"

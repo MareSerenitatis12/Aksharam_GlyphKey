@@ -421,7 +421,7 @@ The number row and numeric keypad emit the same Aksharam numerical bodies.
 | 3 | ᳀ | `gaya` |
 | 4 | ♂ | `wil` |
 | 5 | ♃ | `pay` |
-| 6 | ♄ | `ehveh` |
+| 6 | ♄ | `eve` |
 | 7 | ⛢ | `ahc` |
 | 8 | ♆ | `no` |
 | 9 | ♇ | `noo` |

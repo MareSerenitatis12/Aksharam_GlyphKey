@@ -20,7 +20,7 @@ Shape-of-Sound
 human utterance
 ```
 
-The written body and the speaking body are one identity in different office. Registry inputs remain access coordinates. The final spoken value is read from the final resolved body. Composite authored utterance bodies are read as wholes before their component glyphs.
+The written body and the speaking body are one identity in different office. Registry inputs remain access coordinates. The final spoken value is read from the final resolved body. Composite authored utterance bodies are read as wholes before their component glyphs. The First Spells preserve the originating utterance through every lawful written fold.
 
 ```text
 Truth = 1
@@ -29,18 +29,20 @@ Shadow Debt = paritied
 ALL TRANSFORMATION REMAINS LANGUAGE
 ```
 
-### Authored utterance transformations
+### The First Spells
 
-The following utterance words are deliberate registered transformations. Each entry records three distinct bodies: the source word, its resolved Aksharam glyph body, and the canonical Aksharam pronunciation produced by the Shape-of-Sound authority.
+The six remembered phonetic utterances enter their Aksharam glyph forms, fold only where the law carries them, and stop where the law stops. These first-spell registrations preserve phonetic identity across the written fold: glyph form 1 and lawful folded glyph form 2 are different written states of the same uttered spell-word. The final pronunciation returns the originating utterance itself.
 
-| Access word | Final Aksharam body | Shape-of-Sound |
-|---|:---:|---|
-| `eloi` | ❂ᛌ༺ | `eloi` |
-| `sabachtany` | ⦾✡𐤩𐠂𒁀 | `seabdokhtanih` |
-| `anima` | ⚝༺🜛 | `ahnima` |
-| `culpa` | ⶉ🜚 | `kolpa` |
-| `decire` | ⚶⦾᭢ | `desere` |
-| `entera` | ♋𐠂ⴰ | `entaera` |
+| Phonetic utterance | Glyph form 1 | Lawful folded glyph form 2 | Invariant spell pronunciation |
+|---|:---:|:---:|---|
+| `eloi` | ⏣⚛⚝❂ | ދ𝀖 | `eloi` |
+| `sabachtany` | ❈✡☽✡⌬⧗⬡✡ꙮ♐ | 🜃☽ᛃ𒀭ᚲ♐ | `sabachtany` |
+| `anima` | ✡ꙮ❂♏✡ | ᚲ❂♏✡ | `anima` |
+| `culpa` | ⌬♍⚛♑✡ | ⌬♍⚛♑✡ | `culpa` |
+| `decire` | ❄⏣⌬❂⊛⏣ | 𐤠𐔄ⶀ | `decire` |
+| `entera` | ⏣ꙮ⬡⏣⊛✡ | ޅᛁⶂ | `entera` |
+
+Always Striking the Chord preserves the originating utterance while Aksharam law moves the written body beneath it.
 
 ## Aksharam Constellations
 
@@ -81,10 +83,10 @@ The following utterance words are deliberate registered transformations. Each en
 
 | Symbol | Direction | Keyboard | Compressed Definition |
 | :---: | --- | --- | --- |
-| 🡡 | North / Up / Ascent | `Shift + ↑` | Upward, rising, ascending, or upward-mapping relation. |
-| 🡣 | South / Down / Descent | `Shift + ↓` | Downward, falling, descending, or downward-mapping relation. |
-| 🡢 | East / Right / Outward | `Shift + →` | Rightward, forward, outward, or propagating relation. |
-| 🡠 | West / Left / Return | `Shift + ←` | Leftward, inward, returning, or reverse-mapping relation. |
+| 🡡 | North / Up / Ascent | `Alt + Shift + 2` | Upward, rising, ascending, or upward-mapping relation. |
+| 🡣 | South / Down / Descent | `Alt + Shift + 3` | Downward, falling, descending, or downward-mapping relation. |
+| 🡢 | East / Right / Outward | `Alt + Shift + 4` | Rightward, forward, outward, or propagating relation. |
+| 🡠 | West / Left / Return | `Alt + Shift + 5` | Leftward, inward, returning, or reverse-mapping relation. |
 
 ## Q-Glyph Mathematical Operands
 
@@ -103,10 +105,10 @@ The four Q-glyphs are direct mathematical operands on the shifted `2 3 4 5` keys
 | ⛎︎ | 0 | `zen` |
 | ☿︎ | 1 | `pon` |
 | ♀︎ | 2 | `ael` |
-| ᳀ | 3 | `gaya` |
+| ∮ | 3 | `gaya` |
 | ♂︎ | 4 | `wil` |
 | ♃︎ | 5 | `pay` |
-| ♄︎ | 6 | `ehveh` |
+| ♄︎ | 6 | `eve` |
 | ⛢ | 7 | `ahc` |
 | ♆︎ | 8 | `no` |
 | ♇︎ | 9 | `noo` |
@@ -198,18 +200,18 @@ These are the Base. They cannot be broken down phonetically.
 | ♌︎ | Axiomyr | `myr` |  |
 | ♒︎ | Nyx | `nyx` |  |
 | ♓︎ | Zaine | `ai` |  |
-| ⏣ | Fetu | `fe` | ⛢∷♆︎᳀⟠🜗🜕🜕🜕🜗 |
+| ⏣ | Fetu | `fe` | ⛢∷♆︎∮⟠🜗🜕🜕🜕🜗 |
 | ⬡ | Kal | `al` | ☿︎⛢♂︎⟠🜕🜕🜗🜔🜔 |
 | ✡︎ | Babdh | `abd` | ♃︎♀︎♆︎⟠🜖🜕🜕🜗🜕 |
-| ⚝︎ | Ahn | `ahn` | ♂︎᳀♀︎±i♂︎☿︎⛢⟠🜔🜕🜖🜖🜔 |
+| ⚝︎ | Ahn | `ahn` | ♂︎∮♀︎±i♂︎☿︎⛢⟠🜔🜕🜖🜖🜔 |
 | ❂︎ | Vel | `el` | ☿︎♀︎♄︎∷♀︎♀︎⟠🜕🜕🜗🜔🜕 |
 | ꙮ | Sor | `so` | ♀︎☿︎⛎︎∷♂︎♀︎⟠🜗🜕🜕🜕🜖 |
 | ❈ | Koth | `ot` | ⛢♂︎☿︎⟠🜗🜕🜖🜕🜗 |
 | ⧗ | Dreh | `dr` | ♆︎♃︎♀︎⟠🜕🜕🜗🜖🜔 |
-| ⊛ | Rhea | `ri` | ᳀♇︎♄︎⟠🜖🜕🜖🜖🜕 |
-| ❄︎ | Zhek | `ek` | ♇︎♄︎᳀⟠🜗🜕🜕🜖🜖 |
+| ⊛ | Rhea | `ri` | ∮♇︎♄︎⟠🜖🜕🜖🜖🜕 |
+| ❄︎ | Zhek | `ek` | ♇︎♄︎∮⟠🜗🜕🜕🜖🜖 |
 | ⚛︎ | Shav | `av` | ♀︎♆︎♃︎⟠🜕🜕🜗🜕🜕 |
-| ⌬ | Trig | `ig` | ♄︎᳀♇︎⟠🜗🜕🜕🜗🜖 |
+| ⌬ | Trig | `ig` | ♄︎∮♇︎⟠🜗🜕🜕🜗🜖 |
 | ☽︎ | Rav | `av` |  |
 | ☾︎ | Veh | `veh` |  |
 
@@ -218,7 +220,7 @@ These are the Base. They cannot be broken down phonetically.
 | ⛎︎ | Shadow Locus | 0 |
 | ☿︎ | Ponder | 1 |
 | ♀︎ | Feel | 2 |
-| ᳀ | Gaia / Axiomyr | 3 |
+| ∮ | Gaia / Axiomyr | 3 |
 | ♂︎ | Will | 4 |
 | ♃︎ | Speak | 5 |
 | ♄︎ | Believe | 6 |
@@ -237,7 +239,7 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 
 | Glyph | Aeon Name | Goetic Pair | Shape-of-Sound | Mathematical Body |
 | :---: | --- | :---: | --- | --- |
-| އ | Ahl | `⏣⏣` | `ahl` | ⛢∷♆︎᳀࿂🜗🜕🜕🜕🜗 |
+| އ | Ahl | `⏣⏣` | `ahl` | ⛢∷♆︎∮࿂🜗🜕🜕🜕🜗 |
 | ށ | Suhn | `⏣⬡` | `uhh` | ☿︎⛢♂︎࿂🜗🜕🜕🜕🜗 |
 | ނ | Nerh | `⏣✡︎` | `ehr` | ♃︎♀︎♆︎࿂🜗🜕🜕🜕🜗 |
 | ރ | Rish | `⏣⚝︎` | `ish` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜗🜕🜕🜕🜗 |
@@ -245,11 +247,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | ޅ | Lhahm | `⏣ꙮ` | `ahm` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜗🜕🜕🜕🜗 |
 | ކ | Keth | `⏣❈` | `ke` | ⛢♂︎☿︎࿂🜗🜕🜕🜕🜗 |
 | ވ | Vehm | `⏣⧗` | `ehm` | ♆︎♃︎♀︎࿂🜗🜕🜕🜕🜗 |
-| މ | Mahd | `⏣⊛` | `ahd` | ᳀♇︎♄︎࿂🜗🜕🜕🜕🜗 |
-| ފ | Furh | `⏣❄︎` | `fur` | ♇︎♄︎᳀࿂🜗🜕🜕🜕🜗 |
+| މ | Mahd | `⏣⊛` | `ahd` | ∮♇︎♄︎࿂🜗🜕🜕🜕🜗 |
+| ފ | Furh | `⏣❄︎` | `fur` | ♇︎♄︎∮࿂🜗🜕🜕🜕🜗 |
 | ދ | Drah | `⏣⚛︎` | `a` | ♀︎♆︎♃︎࿂🜗🜕🜕🜕🜗 |
-| ތ | Thera | `⏣⌬` | `era` | ♄︎᳀♇︎࿂🜗🜕🜕🜕🜗 |
-| ᛁ | Kura | `⬡⏣` | `kur` | ⛢∷♆︎᳀࿂🜕🜕🜗🜔🜔 |
+| ތ | Thera | `⏣⌬` | `era` | ♄︎∮♇︎࿂🜗🜕🜕🜕🜗 |
+| ᛁ | Kura | `⬡⏣` | `kur` | ⛢∷♆︎∮࿂🜕🜕🜗🜔🜔 |
 | ᛂ | Lur | `⬡⬡` | `lur` | ☿︎⛢♂︎࿂🜕🜕🜗🜔🜔 |
 | ⌑ | Thar | `⬡✡︎` | `ahr` | ♃︎♀︎♆︎࿂🜕🜕🜗🜔🜔 |
 | ᛄ | Rin | `⬡⚝︎` | `in` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜕🜕🜗🜔🜔 |
@@ -257,11 +259,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | ᛉ | Fel | `⬡ꙮ` | `fel` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜕🜕🜗🜔🜔 |
 | ᛊ | Har | `⬡❈` | `har` | ⛢♂︎☿︎࿂🜕🜕🜗🜔🜔 |
 | ᛋ | Mer | `⬡⧗` | `mer` | ♆︎♃︎♀︎࿂🜕🜕🜗🜔🜔 |
-| ᛌ | Lor | `⬡⊛` | `o` | ᳀♇︎♄︎࿂🜕🜕🜗🜔🜔 |
-| ᛍ | Per | `⬡❄︎` | `pe` | ♇︎♄︎᳀࿂🜕🜕🜗🜔🜔 |
+| ᛌ | Lor | `⬡⊛` | `o` | ∮♇︎♄︎࿂🜕🜕🜗🜔🜔 |
+| ᛍ | Per | `⬡❄︎` | `pe` | ♇︎♄︎∮࿂🜕🜕🜗🜔🜔 |
 | ᛎ | Zhil | `⬡⚛︎` | `zhi` | ♀︎♆︎♃︎࿂🜕🜕🜗🜔🜔 |
-| ᛏ | Clar | `⬡⌬` | `cl` | ♄︎᳀♇︎࿂🜕🜕🜗🜔🜔 |
-| ᚠ | Hir | `✡︎⏣` | `hr` | ⛢∷♆︎᳀࿂🜖🜕🜕🜗🜕 |
+| ᛏ | Clar | `⬡⌬` | `cl` | ♄︎∮♇︎࿂🜕🜕🜗🜔🜔 |
+| ᚠ | Hir | `✡︎⏣` | `hr` | ⛢∷♆︎∮࿂🜖🜕🜕🜗🜕 |
 | ᚢ | Kor | `✡︎⬡` | `kr` | ☿︎⛢♂︎࿂🜖🜕🜕🜗🜕 |
 | ᚦ | Var | `✡︎✡︎` | `vr` | ♃︎♀︎♆︎࿂🜖🜕🜕🜗🜕 |
 | ᚨ | Pyr | `✡︎⚝︎` | `py` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜖🜕🜕🜗🜕 |
@@ -269,11 +271,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | ᚲ | Alc | `✡︎ꙮ` | `lc` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜖🜕🜕🜗🜕 |
 | ᚷ | Nur | `✡︎❈` | `nu` | ⛢♂︎☿︎࿂🜖🜕🜕🜗🜕 |
 | ᚹ | Sat | `✡︎⧗` | `st` | ♆︎♃︎♀︎࿂🜖🜕🜕🜗🜕 |
-| ᚺ | Oro | `✡︎⊛` | `or` | ᳀♇︎♄︎࿂🜖🜕🜕🜗🜕 |
-| ᚾ | Bon | `✡︎❄︎` | `bon` | ♇︎♄︎᳀࿂🜖🜕🜕🜗🜕 |
+| ᚺ | Oro | `✡︎⊛` | `or` | ∮♇︎♄︎࿂🜖🜕🜕🜗🜕 |
+| ᚾ | Bon | `✡︎❄︎` | `bon` | ♇︎♄︎∮࿂🜖🜕🜕🜗🜕 |
 | ᚿ | Tir | `✡︎⚛︎` | `ti` | ♀︎♆︎♃︎࿂🜖🜕🜕🜗🜕 |
-| ᛃ | Far | `✡︎⌬` | `fa` | ♄︎᳀♇︎࿂🜖🜕🜕🜗🜕 |
-| ≾ | Abdh | `⚝︎⏣` | `abd` | ⛢∷♆︎᳀࿂🜔🜕🜖🜖🜔 |
+| ᛃ | Far | `✡︎⌬` | `fa` | ♄︎∮♇︎࿂🜖🜕🜕🜗🜕 |
+| ≾ | Abdh | `⚝︎⏣` | `abd` | ⛢∷♆︎∮࿂🜔🜕🜖🜖🜔 |
 | ᭨ | Nym | `⚝︎⬡` | `ym` | ☿︎⛢♂︎࿂🜔🜕🜖🜖🜔 |
 | ᭡ | Loh | `⚝︎✡︎` | `oh` | ♃︎♀︎♆︎࿂🜔🜕🜖🜖🜔 |
 | ⛧ | Xir | `⚝︎⚝︎` | `zhi` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜔🜕🜖🜖🜔 |
@@ -281,11 +283,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | ༺ | Pir | `⚝︎ꙮ` | `i` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜔🜕🜖🜖🜔 |
 | ᭢ | Roeh | `⚝︎❈` | `re` | ⛢♂︎☿︎࿂🜔🜕🜖🜖🜔 |
 | ⦾ | Sen | `⚝︎⧗` | `se` | ♆︎♃︎♀︎࿂🜔🜕🜖🜖🜔 |
-| ⦽ | Uth | `⚝︎⊛` | `u` | ᳀♇︎♄︎࿂🜔🜕🜖🜖🜔 |
-| 𝀵 | Fae | `⚝︎❄︎` | `fay` | ♇︎♄︎᳀࿂🜔🜕🜖🜖🜔 |
+| ⦽ | Uth | `⚝︎⊛` | `u` | ∮♇︎♄︎࿂🜔🜕🜖🜖🜔 |
+| 𝀵 | Fae | `⚝︎❄︎` | `fay` | ♇︎♄︎∮࿂🜔🜕🜖🜖🜔 |
 | 𝀟 | Kha | `⚝︎⚛︎` | `ha` | ♀︎♆︎♃︎࿂🜔🜕🜖🜖🜔 |
-| ༻ | Psei | `⚝︎⌬` | `ps` | ♄︎᳀♇︎࿂🜔🜕🜖🜖🜔 |
-| ⴰ | Vera | `❂︎⏣` | `era` | ⛢∷♆︎᳀࿂🜕🜕🜗🜔🜕 |
+| ༻ | Psei | `⚝︎⌬` | `ps` | ♄︎∮♇︎࿂🜔🜕🜖🜖🜔 |
+| ⴰ | Vera | `❂︎⏣` | `era` | ⛢∷♆︎∮࿂🜕🜕🜗🜔🜕 |
 | ⴱ | Tar | `❂︎⬡` | `tar` | ☿︎⛢♂︎࿂🜕🜕🜗🜔🜕 |
 | ⴳ | Ghem | `❂︎✡︎` | `ghe` | ♃︎♀︎♆︎࿂🜕🜕🜗🜔🜕 |
 | ⴷ | Drel | `❂︎⚝︎` | `rel` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜕🜕🜗🜔🜕 |
@@ -293,11 +295,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | ⴽ | Ker | `❂︎ꙮ` | `ker` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜕🜕🜗🜔🜕 |
 | ⵀ | Hohm | `❂︎❈` | `hoh` | ⛢♂︎☿︎࿂🜕🜕🜗🜔🜕 |
 | ⵃ | Hrah | `❂︎⧗` | `hr` | ♆︎♃︎♀︎࿂🜕🜕🜗🜔🜕 |
-| ⵄ | Ara | `❂︎⊛` | `ar` | ᳀♇︎♄︎࿂🜕🜕🜗🜔🜕 |
-| ⵇ | Qel | `❂︎❄︎` | `ay` | ♇︎♄︎᳀࿂🜕🜕🜗🜔🜕 |
+| ⵄ | Ara | `❂︎⊛` | `ar` | ∮♇︎♄︎࿂🜕🜕🜗🜔🜕 |
+| ⵇ | Qel | `❂︎❄︎` | `ay` | ♇︎♄︎∮࿂🜕🜕🜗🜔🜕 |
 | ⵉ | Irn | `❂︎⚛︎` | `urn` | ♀︎♆︎♃︎࿂🜕🜕🜗🜔🜕 |
-| ⵊ | Jen | `❂︎⌬` | `je` | ♄︎᳀♇︎࿂🜕🜕🜗🜔🜕 |
-| ꠇ | Fi | `ꙮ⏣` | `fi` | ⛢∷♆︎᳀࿂🜗🜕🜕🜕🜖 |
+| ⵊ | Jen | `❂︎⌬` | `je` | ♄︎∮♇︎࿂🜕🜕🜗🜔🜕 |
+| ꠇ | Fi | `ꙮ⏣` | `fi` | ⛢∷♆︎∮࿂🜗🜕🜕🜕🜖 |
 | ꠈ | Lun | `ꙮ⬡` | `lun` | ☿︎⛢♂︎࿂🜗🜕🜕🜕🜖 |
 | ꠉ | Varu | `ꙮ✡︎` | `aru` | ♃︎♀︎♆︎࿂🜗🜕🜕🜕🜖 |
 | ꠊ | Senh | `ꙮ⚝︎` | `es` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜗🜕🜕🜕🜖 |
@@ -305,11 +307,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | ꠌ | Ramh | `ꙮꙮ` | `ahm` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜗🜕🜕🜕🜖 |
 | ꠍ | Tis | `ꙮ❈` | `ti` | ⛢♂︎☿︎࿂🜗🜕🜕🜕🜖 |
 | ꠎ | Vey | `ꙮ⧗` | `ey` | ♆︎♃︎♀︎࿂🜗🜕🜕🜕🜖 |
-| ꠏ | Srih | `ꙮ⊛` | `sih` | ᳀♇︎♄︎࿂🜗🜕🜕🜕🜖 |
-| ꠐ | Hrin | `ꙮ❄︎` | `hri` | ♇︎♄︎᳀࿂🜗🜕🜕🜕🜖 |
+| ꠏ | Srih | `ꙮ⊛` | `sih` | ∮♇︎♄︎࿂🜗🜕🜕🜕🜖 |
+| ꠐ | Hrin | `ꙮ❄︎` | `hri` | ♇︎♄︎∮࿂🜗🜕🜕🜕🜖 |
 | ꠑ | Yon | `ꙮ⚛︎` | `yo` | ♀︎♆︎♃︎࿂🜗🜕🜕🜕🜖 |
-| ꠒ | Thal | `ꙮ⌬` | `thal` | ♄︎᳀♇︎࿂🜗🜕🜕🜕🜖 |
-| 🝏 | Kel | `❈⏣` | `e` | ⛢∷♆︎᳀࿂🜗🜕🜖🜕🜗 |
+| ꠒ | Thal | `ꙮ⌬` | `thal` | ♄︎∮♇︎࿂🜗🜕🜕🜕🜖 |
+| 🝏 | Kel | `❈⏣` | `e` | ⛢∷♆︎∮࿂🜗🜕🜖🜕🜗 |
 | 🜁 | Sens | `❈⬡` | `se` | ☿︎⛢♂︎࿂🜗🜕🜖🜕🜗 |
 | 🜃 | Linn | `❈✡︎` | `lin` | ♃︎♀︎♆︎࿂🜗🜕🜖🜕🜗 |
 | 🜄 | Brim | `❈⚝︎` | `bri` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜗🜕🜖🜕🜗 |
@@ -317,11 +319,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | 🜆 | Subh | `❈ꙮ` | `subh` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜗🜕🜖🜕🜗 |
 | 🜇 | Well | `❈❈` | `wel` | ⛢♂︎☿︎࿂🜗🜕🜖🜕🜗 |
 | 🜈 | Met | `❈⧗` | `m` | ♆︎♃︎♀︎࿂🜗🜕🜖🜕🜗 |
-| 🜉 | Kesh | `❈⊛` | `esh` | ᳀♇︎♄︎࿂🜗🜕🜖🜕🜗 |
-| 🜊 | Soth | `❈❄︎` | `so` | ♇︎♄︎᳀࿂🜗🜕🜖🜕🜗 |
+| 🜉 | Kesh | `❈⊛` | `esh` | ∮♇︎♄︎࿂🜗🜕🜖🜕🜗 |
+| 🜊 | Soth | `❈❄︎` | `so` | ♇︎♄︎∮࿂🜗🜕🜖🜕🜗 |
 | 🜋 | Rhun | `❈⚛︎` | `rhu` | ♀︎♆︎♃︎࿂🜗🜕🜖🜕🜗 |
-| 🜌 | Delh | `❈⌬` | `del` | ♄︎᳀♇︎࿂🜗🜕🜖🜕🜗 |
-| 𒀀 | Na | `⧗⏣` | `na` | ⛢∷♆︎᳀࿂🜕🜕🜗🜖🜔 |
+| 🜌 | Delh | `❈⌬` | `del` | ♄︎∮♇︎࿂🜗🜕🜖🜕🜗 |
+| 𒀀 | Na | `⧗⏣` | `na` | ⛢∷♆︎∮࿂🜕🜕🜗🜖🜔 |
 | 𒀭 | Ur | `⧗⬡` | `ur` | ☿︎⛢♂︎࿂🜕🜕🜗🜖🜔 |
 | 𒁀 | Nih | `⧗✡︎` | `nih` | ♃︎♀︎♆︎࿂🜕🜕🜗🜖🜔 |
 | 𒂊 | Azh | `⧗⚝︎` | `azh` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜕🜕🜗🜖🜔 |
@@ -329,11 +331,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | 𒅆 | Gur | `⧗ꙮ` | `gur` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜕🜕🜗🜖🜔 |
 | 𒆠 | Ves | `⧗❈` | `ves` | ⛢♂︎☿︎࿂🜕🜕🜗🜖🜔 |
 | 𒇽 | Rim | `⧗⧗` | `rim` | ♆︎♃︎♀︎࿂🜕🜕🜗🜖🜔 |
-| 𒉌 | Drem | `⧗⊛` | `dem` | ᳀♇︎♄︎࿂🜕🜕🜗🜖🜔 |
-| 𒊕 | Oth | `⧗❄︎` | `oth` | ♇︎♄︎᳀࿂🜕🜕🜗🜖🜔 |
+| 𒉌 | Drem | `⧗⊛` | `dem` | ∮♇︎♄︎࿂🜕🜕🜗🜖🜔 |
+| 𒊕 | Oth | `⧗❄︎` | `oth` | ♇︎♄︎∮࿂🜕🜕🜗🜖🜔 |
 | 𒋗 | Izh | `⧗⚛︎` | `izh` | ♀︎♆︎♃︎࿂🜕🜕🜗🜖🜔 |
-| 𒌋 | Sun | `⧗⌬` | `shu` | ♄︎᳀♇︎࿂🜕🜕🜗🜖🜔 |
-| ⶀ | Kia | `⊛⏣` | `ia` | ⛢∷♆︎᳀࿂🜖🜕🜖🜖🜕 |
+| 𒌋 | Sun | `⧗⌬` | `shu` | ♄︎∮♇︎࿂🜕🜕🜗🜖🜔 |
+| ⶀ | Kia | `⊛⏣` | `ia` | ⛢∷♆︎∮࿂🜖🜕🜖🜖🜕 |
 | ⶁ | Zohm | `⊛⬡` | `zoh` | ☿︎⛢♂︎࿂🜖🜕🜖🜖🜕 |
 | ⶂ | Ther | `⊛✡︎` | `her` | ♃︎♀︎♆︎࿂🜖🜕🜖🜖🜕 |
 | ⶃ | Drun | `⊛⚝︎` | `druh` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜖🜕🜖🜖🜕 |
@@ -341,11 +343,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | ⶅ | Ral | `⊛ꙮ` | `ral` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜖🜕🜖🜖🜕 |
 | ⶆ | Krah | `⊛❈` | `kra` | ⛢♂︎☿︎࿂🜖🜕🜖🜖🜕 |
 | ⶇ | Andh | `⊛⧗` | `and` | ♆︎♃︎♀︎࿂🜖🜕🜖🜖🜕 |
-| ⶈ | Debh | `⊛⊛` | `deb` | ᳀♇︎♄︎࿂🜖🜕🜖🜖🜕 |
-| ⶉ | Kol | `⊛❄︎` | `kol` | ♇︎♄︎᳀࿂🜖🜕🜖🜖🜕 |
+| ⶈ | Debh | `⊛⊛` | `deb` | ∮♇︎♄︎࿂🜖🜕🜖🜖🜕 |
+| ⶉ | Kol | `⊛❄︎` | `kol` | ♇︎♄︎∮࿂🜖🜕🜖🜖🜕 |
 | ⶊ | Fral | `⊛⚛︎` | `fra` | ♀︎♆︎♃︎࿂🜖🜕🜖🜖🜕 |
-| ⶋ | Hush | `⊛⌬` | `us` | ♄︎᳀♇︎࿂🜖🜕🜖🜖🜕 |
-| 𐤠 | Hin | `❄︎⏣` | `hin` | ⛢∷♆︎᳀࿂🜗🜕🜕🜖🜖 |
+| ⶋ | Hush | `⊛⌬` | `us` | ♄︎∮♇︎࿂🜖🜕🜖🜖🜕 |
+| 𐤠 | Hin | `❄︎⏣` | `hin` | ⛢∷♆︎∮࿂🜗🜕🜕🜖🜖 |
 | 𐤡 | Ser | `❄︎⬡` | `ser` | ☿︎⛢♂︎࿂🜗🜕🜕🜖🜖 |
 | 𐤢 | Harma | `❄︎✡︎` | `ama` | ♃︎♀︎♆︎࿂🜗🜕🜕🜖🜖 |
 | 𐤣 | Torh | `❄︎⚝︎` | `tohr` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜗🜕🜕🜖🜖 |
@@ -353,11 +355,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | 𐤥 | Khir | `❄︎ꙮ` | `khi` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜗🜕🜕🜖🜖 |
 | 𐤦 | Ryth | `❄︎❈` | `yth` | ⛢♂︎☿︎࿂🜗🜕🜕🜖🜖 |
 | 𐤧 | Melu | `❄︎⧗` | `mel` | ♆︎♃︎♀︎࿂🜗🜕🜕🜖🜖 |
-| 𐤨 | Phaz | `❄︎⊛` | `pha` | ᳀♇︎♄︎࿂🜗🜕🜕🜖🜖 |
-| 𐤩 | Lokh | `❄︎❄︎` | `okh` | ♇︎♄︎᳀࿂🜗🜕🜕🜖🜖 |
+| 𐤨 | Phaz | `❄︎⊛` | `pha` | ∮♇︎♄︎࿂🜗🜕🜕🜖🜖 |
+| 𐤩 | Lokh | `❄︎❄︎` | `okh` | ♇︎♄︎∮࿂🜗🜕🜕🜖🜖 |
 | 𐤪 | Nod | `❄︎⚛︎` | `od` | ♀︎♆︎♃︎࿂🜗🜕🜕🜖🜖 |
-| 𐤫 | Umel | `❄︎⌬` | `ume` | ♄︎᳀♇︎࿂🜗🜕🜕🜖🜖 |
-| 𐠀 | Dohm | `⚛︎⏣` | `ohm` | ⛢∷♆︎᳀࿂🜕🜕🜗🜕🜕 |
+| 𐤫 | Umel | `❄︎⌬` | `ume` | ♄︎∮♇︎࿂🜗🜕🜕🜖🜖 |
+| 𐠀 | Dohm | `⚛︎⏣` | `ohm` | ⛢∷♆︎∮࿂🜕🜕🜗🜕🜕 |
 | 𐠁 | Rist | `⚛︎⬡` | `is` | ☿︎⛢♂︎࿂🜕🜕🜗🜕🜕 |
 | 𐠂 | Tran | `⚛︎✡︎` | `ta` | ♃︎♀︎♆︎࿂🜕🜕🜗🜕🜕 |
 | 𐠃 | Korh | `⚛︎⚝︎` | `koh` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜕🜕🜗🜕🜕 |
@@ -365,11 +367,11 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | 𐠅 | Ster | `⚛︎ꙮ` | `st` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜕🜕🜗🜕🜕 |
 | 𐠝 | Poss | `⚛︎❈` | `os` | ⛢♂︎☿︎࿂🜕🜕🜗🜕🜕 |
 | 𐠞 | Poru | `⚛︎⧗` | `poru` | ♆︎♃︎♀︎࿂🜕🜕🜗🜕🜕 |
-| 𐠈 | Dorm | `⚛︎⊛` | `orm` | ᳀♇︎♄︎࿂🜕🜕🜗🜕🜕 |
-| 𐠜 | Trev | `⚛︎❄︎` | `rev` | ♇︎♄︎᳀࿂🜕🜕🜗🜕🜕 |
+| 𐠈 | Dorm | `⚛︎⊛` | `orm` | ∮♇︎♄︎࿂🜕🜕🜗🜕🜕 |
+| 𐠜 | Trev | `⚛︎❄︎` | `rev` | ♇︎♄︎∮࿂🜕🜕🜗🜕🜕 |
 | 𐠋 | Limh | `⚛︎⚛︎` | `imh` | ♀︎♆︎♃︎࿂🜕🜕🜗🜕🜕 |
-| 𐠌 | Hinge | `⚛︎⌬` | `ihnj` | ♄︎᳀♇︎࿂🜕🜕🜗🜕🜕 |
-| 𐔀 | Tzig | `⌬⏣` | `ig` | ⛢∷♆︎᳀࿂🜗🜕🜕🜗🜖 |
+| 𐠌 | Hinge | `⚛︎⌬` | `ihnj` | ♄︎∮♇︎࿂🜕🜕🜗🜕🜕 |
+| 𐔀 | Tzig | `⌬⏣` | `ig` | ⛢∷♆︎∮࿂🜗🜕🜕🜗🜖 |
 | 𐔁 | Pehl | `⌬⬡` | `pe` | ☿︎⛢♂︎࿂🜗🜕🜕🜗🜖 |
 | 𐔂 | Duth | `⌬✡︎` | `du` | ♃︎♀︎♆︎࿂🜗🜕🜕🜗🜖 |
 | 𐔃 | Coma | `⌬⚝︎` | `oma` | ᚛⟠♂︎☿︎⛢᚜⧟♂︎⦽♀︎࿂🜗🜕🜕🜗🜖 |
@@ -377,10 +379,10 @@ Only ordered Goetic pairs transform into Court glyphs. The first Goetic is the g
 | 𐔅 | Stab | `⌬ꙮ` | `ta` | ♀︎☿︎⛎︎∷♂︎♀︎࿂🜗🜕🜕🜗🜖 |
 | 𐔆 | Hopa | `⌬❈` | `opa` | ⛢♂︎☿︎࿂🜗🜕🜕🜗🜖 |
 | 𐔇 | Conti | `⌬⧗` | `tin` | ♆︎♃︎♀︎࿂🜗🜕🜕🜗🜖 |
-| 𐔈 | Resth | `⌬⊛` | `rest` | ᳀♇︎♄︎࿂🜗🜕🜕🜗🜖 |
-| 𐔉 | Sil | `⌬❄︎` | `sil` | ♇︎♄︎᳀࿂🜗🜕🜕🜗🜖 |
+| 𐔈 | Resth | `⌬⊛` | `rest` | ∮♇︎♄︎࿂🜗🜕🜕🜗🜖 |
+| 𐔉 | Sil | `⌬❄︎` | `sil` | ♇︎♄︎∮࿂🜗🜕🜕🜗🜖 |
 | 𐔊 | Slun | `⌬⚛︎` | `slun` | ♀︎♆︎♃︎࿂🜗🜕🜕🜗🜖 |
-| 𐔋 | Etern | `⌬⌬` | `ete` | ♄︎᳀♇︎࿂🜗🜕🜕🜗🜖 |
+| 𐔋 | Etern | `⌬⌬` | `ete` | ♄︎∮♇︎࿂🜗🜕🜕🜗🜖 |
 
 
 | Glyph | Phonetic Sound |
@@ -507,7 +509,7 @@ The constellation is selected by office, not by visual resemblance to the ordina
 
 ### First Transform Law — Phonetic Fold
 
-- Automatic transformation follows the registered access trigger exactly. `TRANSFORMATIONS_ALQC_WORDS.md` governs executable lexical triggers. The phonetic values printed in this Legend are post-resolution Shape-of-Sound values governed by `translated bodies/the_shape_of_word.txt`. For authored utterance transformations, the registered composite final body is pronounced by its canonical Shape-of-Sound entry; the source utterance and the Aksharam pronunciation remain distinct fields.
+- Automatic transformation follows the registered access trigger exactly. `TRANSFORMATIONS_ALQC_WORDS.md` governs executable lexical triggers. The phonetic values printed in this Legend are post-resolution Shape-of-Sound values governed by `translated bodies/the_shape_of_word.txt`. For the First Spells, lawful glyph folding preserves the originating utterance: glyph form 1 and lawful folded glyph form 2 are spoken as the same spell-word, as recorded in the textbook.
 
 - Directly mapped A–Z glyphs are the base writing layer. They are emitted by their physical QWERTY coordinates. The First Transform Law acts only on the typed phonetic sequence. It does not itself perform structural Court formation; Court formation belongs only to the Second Transform Law below.
 
@@ -645,6 +647,7 @@ These are the target direct base coordinates established in this Legend. The Eng
 | Shift | Suppress folding for the next mapped glyph; that glyph remains unfolded |
 | Shift held | Suppress folding for every mapped glyph typed while Shift remains held |
 | Caps Lock | Persistent non-folding state; mapped glyphs remain unfolded until Caps Lock is released |
+| Alt+Shift+Backspace | Unfold only the targeted glyph: Court / Enochian → two registered parents; Goetic / Parliament → invariant Primordial Braille SeeD form; preserve the surrounding body |
 | Alt+Backspace ×1 | Unfold the entire word behind the cursor by one transformational level |
 | Alt+Backspace ×2 | Unfold the entire word behind the cursor by two transformational levels |
 | Alt+Backspace ×3 | Unfold the entire word behind the cursor through all three reversible transformational levels to its full source form |
@@ -652,6 +655,53 @@ These are the target direct base coordinates established in this Legend. The Eng
 | Alt+Space | Refold the entire word behind the cursor through every lawful available transformation, emit the Aksharam Space constellation `𑁦`, then continue with a fresh word |
 | Backspace | Ordinary native Backspace behavior; Aksharam does not intercept it for unfolding or transformation |
 | Space | Always emit the Aksharam Space constellation `𑁦`; preserve the current retained fold or unfold state of the preceding word |
+
+### Primordial Unfold Law — Alt+Shift+Backspace
+
+Braille is the invariant source: a Goetic or Parliament unfolds unto its **Primordial Form / SeeD form**, the registered Braille counterpart of its QWERTY coordinate. The dots show the constellation of that source form.
+
+Place the cursor immediately in front of a Goetic or Parliament and tap **Alt+Shift+Backspace**. That one glyph unfolds directly into its Braille SeeD form. If the forward glyph is ineligible, the current eligible glyph immediately behind the cursor is targeted. The surrounding body remains in place.
+
+This is the same per-glyph unfolding key. A Court or Enochian unfolds into its two registered parents; a Goetic or Parliament unfolds into its invariant Braille SeeD form. The Primordial law applies only to Goetics and Parliaments. Braille SeeD forms are terminal under this law.
+
+The lineage can be revealed through those existing unfolds: Court / Enochian → registered parents → Goetic / Parliament → Primordial Braille SeeD form. Mathematical unfolding and whole-body semantic unfolding retain their separate controls.
+
+| QWERTY | Aksharam Goetic / Parliament | Primordial Braille counterpart |
+|---|---|---|
+| Q | ♊ | ⠟ |
+| W | ♒ | ⠺ |
+| E | ⏣ | ⠑ |
+| R | ⊛ | ⠗ |
+| T | ⬡ | ⠞ |
+| Y | ♐ | ⠽ |
+| U | ♍ | ⠥ |
+| I | ❂ | ⠊ |
+| O | ⚝ | ⠕ |
+| P | ♑ | ⠏ |
+| A | ✡ | ⠁ |
+| S | ❈ | ⠎ |
+| D | ❄ | ⠙ |
+| F | ♋ | ⠋ |
+| G | ♌ | ⠛ |
+| H | ⧗ | ⠓ |
+| J | ♈ | ⠚ |
+| K | ♎ | ⠅ |
+| L | ⚛ | ⠇ |
+| Z | ♓ | ⠵ |
+| X | ♉ | ⠭ |
+| C | ⌬ | ⠉ |
+| V | ☾ | ⠧ |
+| B | ☽ | ⠃ |
+| N | ꙮ | ⠝ |
+| M | ♏ | ⠍ |
+
+### Single-Glyph Unfolding — Alt+Shift+Backspace
+
+Place the cursor immediately in front of an eligible glyph, or invoke the shortcut on the current eligible glyph. **Alt+Shift+Backspace** unfolds a Court or Enochian into its **two registered parents**, and a Goetic or Parliament into its **invariant Primordial Braille SeeD form**. The surrounding glyphs remain in place; this control does not unfold the whole word or body.
+
+**Alt+Backspace** retains whole-body semantic unfolding. **Alt+Shift+Enter** retains mathematical-body unfolding of selected glyphs. Each shortcut controls its own unfolding scope through a deliberate keystroke.
+
+Alt+Shift+Backspace acts only while Aksharam is active and an eligible Court, Enochian, Goetic, or Parliament is targeted. Otherwise, the key combination passes through to the host application with its native behavior.
 
 ### Digit Layer
 
@@ -662,10 +712,10 @@ The number row without Shift writes the Aksharam digit bodies.
 | 0 | ⛎︎ | `zen` |
 | 1 | ☿︎ | `pon` |
 | 2 | ♀︎ | `ael` |
-| 3 | ᳀ | `gaya` |
+| 3 | ∮ | `gaya` |
 | 4 | ♂︎ | `wil` |
 | 5 | ♃︎ | `pay` |
-| 6 | ♄︎ | `ehveh` |
+| 6 | ♄︎ | `eve` |
 | 7 | ⛢ | `ahc` |
 | 8 | ♆︎ | `no` |
 | 9 | ♇︎ | `noo` |
@@ -673,16 +723,16 @@ The number row without Shift writes the Aksharam digit bodies.
 ### Numeric Keypad Layer
 
 The physical numeric keypad mirrors the Aksharam numerical layer. Keypad arithmetic operators mirror the corresponding Aksharam structural arithmetic bodies.
-
+(should not change behavior or external numpads when used, external numpad gets same Aksharam mapping, and doesn't lose it's other mapping or functions in favor of Aksharam; NUM key works as per usual; Fn key works standard; and mapping not Aksharam stay the standard.)
 | Keypad key | Output | Function / Shape-of-Sound |
 | --- | :---: | --- |
 | NumPad 0 | ⛎︎ | `zen` |
 | NumPad 1 | ☿︎ | `pon` |
 | NumPad 2 | ♀︎ | `ael` |
-| NumPad 3 | ᳀ | `gaya` |
+| NumPad 3 | ∮ | `gaya` |
 | NumPad 4 | ♂︎ | `wil` |
 | NumPad 5 | ♃︎ | `pay` |
-| NumPad 6 | ♄︎ | `ehveh` |
+| NumPad 6 | ♄︎ | `eve` |
 | NumPad 7 | ⛢ | `ahc` |
 | NumPad 8 | ♆︎ | `no` |
 | NumPad 9 | ♇︎ | `noo` |
@@ -697,11 +747,11 @@ The physical numeric keypad mirrors the Aksharam numerical layer. Keypad arithme
 | Keys | Output | Function |
 | --- | :---: | --- |
 | Tab | ⁛∷ | Paragraph Open |
-| Shift+Enter | ∷⁛ | Paragraph Close |
-| Shift+↑ | 🡡 | North / Up / Ascent |
-| Shift+↓ | 🡣 | South / Down / Descent |
-| Shift+→ | 🡢 | East / Right / Outward |
-| Shift+← | 🡠 | West / Left / Return |
+| Shift+Enter | ∷⁛ | Paragraph Close | (places cursor on empty newline AFTER paragraph or statement is Closed "∷⁛ then \n")
+| alt+Shift+2 | 🡡 | North / Up / Ascent |
+| alt+Shift+3 | 🡣 | South / Down / Descent |
+| alt+Shift+4 | 🡢 | East / Right / Outward |
+| alt+Shift+5 | 🡠 | West / Left / Return |
 | Shift+2 | 🜔 | Q_0 mathematical operand |
 | Shift+3 | 🜕 | Q_1 mathematical operand |
 | Shift+4 | 🜖 | Q_2 mathematical operand |
@@ -709,8 +759,14 @@ The physical numeric keypad mirrors the Aksharam numerical layer. Keypad arithme
 | Ctrl+Shift+6 | ∵ | Collection Open |
 | Shift+6 | ∴ | Collection Close |
 | Shift+8 | ⨳ | Crosstellation / Multiplication |
-| Alt+Shift+Goetic | Registered Mathematical Form | Mathematical body of the typed Goetic |
-| Select glyph(s) + Alt+Shift+Enter | Registered Mathematical Bodies | Render the registered mathematical body of each selected Aeon; selected bodies without an underlying mathematical body remain unchanged |
+| Alt+Shift+Goetic | Registered Mathematical Form | Unfold the typed Goetic into its registered mathematical body |
+| Select glyph(s) + Alt+Shift+Enter | Registered Mathematical Bodies | Unfold each selected Aeon into its registered mathematical body; selected bodies without an underlying mathematical body remain unchanged |
+
+### Mathematical-Body Unfolding
+
+To unfold a Goetic into its mathematical body, hold **Alt+Shift** and press that Goetic's physical key. To unfold existing glyphs, **select the glyph(s)** and press **Alt+Shift+Enter**. Each selected Aeon opens into its registered mathematical body; a selected body without a registered mathematical body remains itself.
+
+These controls unfold glyphs into mathematical bodies. **Alt+Backspace** traverses the word's First-, Second-, and Third-Law transformation history, as described under Folding and Unfolding Controls.
 
 ### Constellation and Punctuation Layer
 
@@ -746,7 +802,7 @@ The physical numeric keypad mirrors the Aksharam numerical layer. Keypad arithme
 
 ### Executable Keyboard State
 
-The active `keyman_keyboard_working_versions/aksharam_glyphkey.kmn` is rebuilt from this Legend and `TRANSFORMATIONS_ALQC_WORDS.md`. It implements the 26 direct coordinates, automatic registered Whole transformations, Dual-Goetic Court formation, Dual-Parliament registered resolution, universal numerical state, three-level unfolding/refolding, mathematical-body controls, Aksharam Space, ordinary Backspace deletion, and native pass-through for unclaimed keys. No legacy two-form lowercase/uppercase Aksharam mapping is retained in the active keyboard source.
+Version 3.0 is maintained in `build/src/` and compiled to `build/generated/aksharam_glyphkey.kmn`. Its executable data is checked against this Legend and `TRANSFORMATIONS_ALQC_WORDS.md`. It implements the 26 direct coordinates, automatic registered Whole transformations, Dual-Goetic Court formation, Dual-Parliament registered resolution, universal numerical state, three-level unfolding/refolding, mathematical-body controls, Aksharam Space, ordinary Backspace deletion, and native pass-through for unclaimed keys. No legacy two-form lowercase/uppercase Aksharam mapping is retained in the active keyboard source.
 
 ### Native Pass-Through Invariant
 

@@ -16,6 +16,8 @@ linux_only={
     'selection_math_map.json',
     'xbindkeys.aksharam',
     'start_selection.sh',
+    'aksharam_host_controls.py',
+    'unfolding_map.json',
 }
 if files is None:
     raise SystemExit('KPS has no Files section')

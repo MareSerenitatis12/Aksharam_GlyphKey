@@ -1,5 +1,15 @@
-"python3 $HOME/.local/share/keyman/aksharam_glyphkey/aksharam_selection_math.py"
+"python3 $HOME/.local/share/keyman/aksharam_glyphkey/aksharam_host_controls.py math"
   Alt+Shift + Return
 
-"python3 $HOME/.local/share/keyman/aksharam_glyphkey/aksharam_selection_phonetic.py"
+"python3 $HOME/.local/share/keyman/aksharam_glyphkey/aksharam_host_controls.py single"
+  Alt+Shift + BackSpace
+
+"python3 $HOME/.local/share/keyman/aksharam_glyphkey/aksharam_host_controls.py unfold"
+  Alt + BackSpace
+
+"python3 $HOME/.local/share/keyman/aksharam_glyphkey/aksharam_host_controls.py refold"
+  Alt + space
+
+"python3 $HOME/.local/share/keyman/aksharam_glyphkey/aksharam_host_controls.py phonetic"
   Alt+Shift + Escape
+

@@ -1,41 +1,33 @@
-# Aksharam GlyphKey — generated build intermediates only
-build/generated/
-build/package/aksharam_glyphkey.kmx
-build/package/aksharam_glyphkey.kps
+# Public release: documentation and final installers only. No source/build inputs.
+# Everything else stays local unless explicitly admitted below.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE
+!/LICENSE.*
+!/COPYING
+!/NOTICE
 
-# Final Keyman keyboard packages are public release artifacts — DO NOT IGNORE
-!build/linux_ubuntu/
-!build/linux_ubuntu/aksharam_glyphkey.kmp
-!build/windows/
-!build/windows/aksharam_glyphkey.kmp
-!build/mac/
-!build/mac/aksharam_glyphkey.kmp
+# Public reference documents; private folders or other future files remain excluded.
+!/docs/
+/docs/*
+!/docs/LORE_README.md
+!/docs/TRANSFORMATIONS_ALQC_WORDS.md
+!/docs/DICTIONARY_ALQC_WORDS.md
+!/docs/Aksharam_Legend.md
+!/docs/the_shape_of_word.txt
 
-# Test/build logs and generated reports
-tests/*.log
-tests/registry_report.json
+# Only final installers may leave the private build directory.
+!/build/
+/build/*
 
-# Local working history / scratch material
-archive/
-
-# OS / editor noise
-.DS_Store
-Thumbs.db
-*~
-*.swp
-*.swo
-.latex/
-latex/
-Latex/
-tests/
-Aksharam_GlyphKey_Latex/
-assets/
-build/tests/
-
-# Python / notebook caches
-__pycache__/
-.ipynb_checkpoints/
-
-# Local Keyman reference documentation
-keyman_linux/
-keyman_linux_docs/
+# Public installers for the three supported package targets.
+!/build/linux_ubuntu/
+/build/linux_ubuntu/*
+!/build/linux_ubuntu/aksharam_glyphkey.kmp
+!/build/windows/
+/build/windows/*
+!/build/windows/aksharam_glyphkey.kmp
+!/build/mac/
+/build/mac/*
+!/build/mac/aksharam_glyphkey.kmp

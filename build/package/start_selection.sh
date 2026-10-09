@@ -1,4 +1,4 @@
 #!/usr/bin/env bash
-set -euo pipefail
+set -eu
 DIR="${HOME}/.local/share/keyman/aksharam_glyphkey"
-exec xbindkeys -n -f "$DIR/xbindkeys.aksharam"
+exec /usr/bin/python3 "$DIR/aksharam_host_controls.py" watch

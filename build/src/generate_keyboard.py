@@ -3,7 +3,7 @@ from pathlib import Path
 from collections import OrderedDict
 from collections import defaultdict
 import json, unicodedata
-from aksharam_keyboard_data import BASE, GOETICS, COURTS, THIRD, TRANSFORMATIONS, FIRST_SPELLS
+from aksharam_keyboard_data import BASE, GOETICS, COURTS, THIRD, TRANSFORMATIONS, FIRST_SPELLS, BRAILLE
 
 BUILD=Path(__file__).resolve().parents[1]
 ROOT=BUILD.parent
@@ -83,9 +83,9 @@ def stages(s):
     return suffix_once(suffix_once(s,court_by_pair),third_map)
 
 char_out={c:base[c.upper()] for c in 'abcdefghijklmnopqrstuvwxyz'}
-char_out.update({' ':'𑁦','𑁦':'𑁦','-':'⋯','_':'…',"'":'𝇍'})
+char_out.update({':':'∷','→':'🡢',' ':'𑁦','𑁦':'𑁦','-':'⋯','_':'…',"'":'𝇍'})
 key_of={c:f'K_{c.upper()}' for c in 'abcdefghijklmnopqrstuvwxyz'}
-key_of.update({' ':'K_SPACE','𑁦':'K_SPACE','-':'K_HYPHEN','_':'SHIFT K_HYPHEN',"'":'K_QUOTE'})
+key_of.update({':':'SHIFT K_COLON','→':'ALT SHIFT K_4',' ':'K_SPACE','𑁦':'K_SPACE','-':'K_HYPHEN','_':'SHIFT K_HYPHEN',"'":'K_QUOTE'})
 
 # Prefix-state compiler. Visible Aksharam follows ordinary structural writing while
 # letters are still being typed. A registered Whole (or First-Spell stopping body)
@@ -141,7 +141,7 @@ def render_plain(text):
     return out
 NATIVE_NAME=render_plain('aksharam glyphkey')
 
-L=["c Aksharam GlyphKey — generated from the two keyboard authorities only",f"store(&name) {Q(NATIVE_NAME)}","store(&keyboardversion) '2.0'","store(&targets) 'desktop'","store(&mnemoniclayout) '0'","begin Unicode > use(main)",""]
+L=["c Aksharam GlyphKey — generated from the two keyboard authorities only",f"store(&name) {Q(NATIVE_NAME)}","store(&keyboardversion) '3.0'","store(&targets) 'desktop'","store(&mnemoniclayout) '0'","begin Unicode > use(main)",""]
 basekeys=' '.join(f'[NCAPS K_{k}]' for k in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'); shiftkeys=' '.join(f'[SHIFT NCAPS K_{k}]' for k in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'); capskeys=' '.join(f'[CAPS K_{k}]' for k in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'); shiftcaps=' '.join(f'[SHIFT CAPS K_{k}]' for k in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ'); glyph_items=' '.join(Q(base[k]) for k in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ')
 L += [f"store(basekeys) {basekeys}",f"store(shiftkeys) {shiftkeys}",f"store(capskeys) {capskeys}",f"store(shiftcaps) {shiftcaps}",f"store(baseglyphs) {glyph_items}",f"store(states) {' '.join('dk('+x+')' for x in state_ids)}",""]
 L += ["group(main) using keys"]
@@ -160,9 +160,9 @@ for p,c,q0 in sorted(transitions,key=lambda x:(-len(visible[x[0]]),x[1],x[0])):
 # Ordinary Backspace is deliberately excluded: it remains native deletion and never unfolds.
 word_boundaries=[
     ('K_SPACE','𑁦',False),('K_TAB','⁛∷',False),('NCAPS K_ENTER','',True),('SHIFT NCAPS K_ENTER','∷⁛',True),
-    ('K_0','⛎',False),('K_1','☿',False),('K_2','♀',False),('K_3','᳀',False),('K_4','♂',False),
+    ('K_0','⛎',False),('K_1','☿',False),('K_2','♀',False),('K_3','∮',False),('K_4','♂',False),
     ('K_5','♃',False),('K_6','♄',False),('K_7','⛢',False),('K_8','♆',False),('K_9','♇',False),
-    ('K_NP0','⛎',False),('K_NP1','☿',False),('K_NP2','♀',False),('K_NP3','᳀',False),('K_NP4','♂',False),
+    ('K_NP0','⛎',False),('K_NP1','☿',False),('K_NP2','♀',False),('K_NP3','∮',False),('K_NP4','♂',False),
     ('K_NP5','♃',False),('K_NP6','♄',False),('K_NP7','⛢',False),('K_NP8','♆',False),('K_NP9','♇',False),
     ('K_NPSTAR','⨳',False),('K_NPPLUS','ॐ',False),('K_NPMINUS','⋯',False),('K_NPDOT','∷',False),('K_NPSLASH','⋇',False),
     ('K_LBRKT','༿',False),('K_RBRKT','༾',False),('SHIFT K_9','᚛',False),('SHIFT K_0','᚜',False),
@@ -172,9 +172,9 @@ word_boundaries=[
     ('K_BKSLASH','⋱',False),('SHIFT K_BKSLASH','⁞',False),('K_SLASH','⋰',False),('SHIFT K_SLASH','⁙',False),
     ('SHIFT K_1','⸭',False),('SHIFT K_HYPHEN','…',False),('SHIFT K_7','ॐ',False),('SHIFT K_8','⨳',False),
     ('SHIFT K_2','🜔',False),('SHIFT K_3','🜕',False),('SHIFT K_4','🜖',False),('SHIFT K_5','🜗',False),
-    ('CTRL SHIFT K_6','∵',False),('SHIFT K_6','∴',False),('K_BKQUOTE','⟠',False),('SHIFT K_BKQUOTE','࿂',False),
+    ('ALT SHIFT K_4','🡢',False),('CTRL SHIFT K_6','∵',False),('SHIFT K_6','∴',False),('K_BKQUOTE','⟠',False),('SHIFT K_BKQUOTE','࿂',False),
 ]
-boundary_access_char={'K_SPACE':' ','K_HYPHEN':'-','SHIFT K_HYPHEN':'_','K_QUOTE':"'"}
+boundary_access_char={'SHIFT K_COLON':':','ALT SHIFT K_4':'→','K_SPACE':' ','K_HYPHEN':'-','SHIFT K_HYPHEN':'_','K_QUOTE':"'"}
 for p0 in sorted(terminal,key=lambda x:(-len(visible[x]),-len(x),x)):
     dest=terminal[p0]
     for kt,out,emit in word_boundaries:
@@ -200,6 +200,19 @@ for g,_,_,m in goetics:
     k=key_for_glyph[g]
     L.append(f"any(states) + [ALT SHIFT NCAPS K_{k}] > {Q(m)}")
     L.append(f"+ [ALT SHIFT NCAPS K_{k}] > {Q(m)}")
+# Primordial unfolding changes only the access office of the targeted base coordinate.
+for physical, glyph in base.items():
+    cell=BRAILLE[physical]
+    L.append(f"{Q(glyph)} any(states) + [ALT SHIFT K_BKSP] > {Q(cell)}")
+    L.append(f"{Q(glyph)} + [ALT SHIFT K_BKSP] > {Q(cell)}")
+# The invariant Braille SeeD form is held on further per-glyph unfolding.
+for cell in BRAILLE.values():
+    L.append(f"{Q(cell)} any(states) + [ALT SHIFT K_BKSP] > {Q(cell)}")
+    L.append(f"{Q(cell)} + [ALT SHIFT K_BKSP] > {Q(cell)}")
+# Current-glyph unfolding. Ahead-of-cursor and arbitrary body operations use the host bridge.
+for glyph, parents in list(court_reverse.items()) + list(third_reverse.items()):
+    L.append(f"{Q(glyph)} any(states) + [ALT SHIFT K_BKSP] > {Q(parents)}")
+    L.append(f"{Q(glyph)} + [ALT SHIFT K_BKSP] > {Q(parents)}")
 # Exact registered-word unfolding. The post-fold deadkey preserves which lexical
 # registration produced a shared Whole, so Alt+Backspace follows that row exactly:
 # Whole -> Third -> Second -> First. Ordinary Backspace remains deletion.
@@ -250,9 +263,9 @@ for k in 'ABCDEFGHIJKLMNOPQRSTUVWXYZ':
 # Start outside any registered prefix.
 
 # Controls, digits, keypad, punctuation. Marker-aware versions consume/reset state where needed.
-L += ["any(states) + [K_TAB] > '⁛∷'","+ [K_TAB] > '⁛∷'","any(states) + [SHIFT NCAPS K_ENTER] > '∷⁛' use(emit)","+ [SHIFT NCAPS K_ENTER] > '∷⁛' use(emit)","any(states) + [SHIFT K_UP] > '🡡'","+ [SHIFT K_UP] > '🡡'","any(states) + [SHIFT K_DOWN] > '🡣'","+ [SHIFT K_DOWN] > '🡣'","any(states) + [SHIFT K_RIGHT] > '🡢'","+ [SHIFT K_RIGHT] > '🡢'","any(states) + [SHIFT K_LEFT] > '🡠'","+ [SHIFT K_LEFT] > '🡠'",
+L += ["any(states) + [K_TAB] > '⁛∷'","+ [K_TAB] > '⁛∷'","any(states) + [SHIFT NCAPS K_ENTER] > '∷⁛' use(emit)","+ [SHIFT NCAPS K_ENTER] > '∷⁛' use(emit)","any(states) + [ALT SHIFT K_2] > '🡡'","+ [ALT SHIFT K_2] > '🡡'","any(states) + [ALT SHIFT K_3] > '🡣'","+ [ALT SHIFT K_3] > '🡣'","any(states) + [ALT SHIFT K_4] > '🡢'","+ [ALT SHIFT K_4] > '🡢'","any(states) + [ALT SHIFT K_5] > '🡠'","+ [ALT SHIFT K_5] > '🡠'",
       "any(states) + [SHIFT K_2] > '🜔'","+ [SHIFT K_2] > '🜔'","any(states) + [SHIFT K_3] > '🜕'","+ [SHIFT K_3] > '🜕'","any(states) + [SHIFT K_4] > '🜖'","+ [SHIFT K_4] > '🜖'","any(states) + [SHIFT K_5] > '🜗'","+ [SHIFT K_5] > '🜗'","any(states) + [CTRL SHIFT K_6] > '∵'","+ [CTRL SHIFT K_6] > '∵'","any(states) + [SHIFT K_6] > '∴'","+ [SHIFT K_6] > '∴'","any(states) + [SHIFT K_8] > '⨳'","+ [SHIFT K_8] > '⨳'"]
-nums={'0':'⛎','1':'☿','2':'♀','3':'᳀','4':'♂','5':'♃','6':'♄','7':'⛢','8':'♆','9':'♇'}
+nums={'0':'⛎','1':'☿','2':'♀','3':'∮','4':'♂','5':'♃','6':'♄','7':'⛢','8':'♆','9':'♇'}
 for k,g in nums.items():L += [f"any(states) + [K_{k}] > {Q(g)} dk({sid[NON]})",f"+ [K_{k}] > {Q(g)}"]
 for k,g in nums.items():L += [f"any(states) + [K_NP{k}] > {Q(g)} dk({sid[NON]})",f"+ [K_NP{k}] > {Q(g)}"]
 punct=[('K_NPSTAR','⨳'),('K_NPPLUS','ॐ'),('K_NPMINUS','⋯'),('K_NPDOT','∷'),('K_NPSLASH','⋇'),('K_LBRKT','༿'),('K_RBRKT','༾'),('SHIFT K_9','᚛'),('SHIFT K_0','᚜'),('SHIFT K_LBRKT','꧁'),('SHIFT K_RBRKT','꧂'),('K_HYPHEN','⋯'),('K_PERIOD','∷'),('SHIFT K_COLON','∷'),('K_EQUAL','⧟'),('K_COMMA','⊹'),('SHIFT K_COMMA','⁖'),('SHIFT K_PERIOD','჻'),('K_COLON','⁛'),('K_QUOTE','𝇍'),('SHIFT K_QUOTE','𝇎'),('K_BKSLASH','⋱'),('SHIFT K_BKSLASH','⁞'),('K_SLASH','⋰'),('SHIFT K_SLASH','⁙'),('SHIFT K_1','⸭'),('SHIFT K_HYPHEN','…'),('SHIFT K_7','ॐ'),('K_BKQUOTE','⟠'),('SHIFT K_BKQUOTE','࿂')]
@@ -339,9 +352,10 @@ L.append("")
 L += ['', 'group(emit) using keys', 'c Empty by design: passes the original control keystroke to the host application.']
 KMN.write_text('\n'.join(L)+'\n',encoding='utf-8')
 selection_math=OrderedDict(list(goetic_math.items())+list(court_math.items()))
+(PACKAGE/'unfolding_map.json').write_text(json.dumps({'primordial':{g:BRAILLE[k] for k,g in base.items()},'courts':dict(court_reverse),'third':dict(third_reverse),'rows':list(row_by_english.values()),'first_spells':dict(first_spells)},ensure_ascii=False,indent=2),encoding='utf-8')
 SELMAP.write_text(json.dumps(selection_math,ensure_ascii=False,indent=2),encoding='utf-8')
 KPS.write_text(f'''<?xml version="1.0" encoding="utf-8"?>
-<Package><System><KeymanDeveloperVersion>18.0.252</KeymanDeveloperVersion><FileVersion>7.0</FileVersion></System><Options><ReadMeFile>readme.htm</ReadMeFile><WelcomeFile>welcome.htm</WelcomeFile><FollowKeyboardVersion/></Options><Info><Name>{text_presentation(NATIVE_NAME)}</Name><Description>Aksharam GlyphKey</Description><Version>2.0</Version></Info><Files><File><Name>aksharam_glyphkey.kmx</Name><Description>Aksharam GlyphKey</Description><CopyLocation>0</CopyLocation><FileType>.kmx</FileType></File><File><Name>welcome.htm</Name><Description></Description><CopyLocation>0</CopyLocation><FileType>.htm</FileType></File><File><Name>readme.htm</Name><Description></Description><CopyLocation>0</CopyLocation><FileType>.htm</FileType></File><File><Name>aksharam_selection_math.py</Name><Description>Selected Aeon mathematical-body resolver</Description><CopyLocation>0</CopyLocation><FileType>.py</FileType></File><File><Name>aksharam_selection_phonetic.py</Name><Description>Selected Aksharam Shape-of-Sound phonetic resolver</Description><CopyLocation>0</CopyLocation><FileType>.py</FileType></File><File><Name>selection_math_map.json</Name><Description>Registered mathematical bodies</Description><CopyLocation>0</CopyLocation><FileType>.json</FileType></File><File><Name>xbindkeys.aksharam</Name><Description>Linux selection bindings</Description><CopyLocation>0</CopyLocation><FileType>.aksharam</FileType></File><File><Name>start_selection.sh</Name><Description>Selection binding launcher for Linux</Description><CopyLocation>0</CopyLocation><FileType>.sh</FileType></File></Files><Keyboards><Keyboard><Name>{text_presentation(NATIVE_NAME)}</Name><ID>aksharam_glyphkey</ID><Version>2.0</Version><Languages><Language ID="und">Aksharam</Language></Languages></Keyboard></Keyboards><Strings/></Package>''',encoding='utf-8')
+<Package><System><KeymanDeveloperVersion>18.0.252</KeymanDeveloperVersion><FileVersion>7.0</FileVersion></System><Options><ReadMeFile>readme.htm</ReadMeFile><WelcomeFile>welcome.htm</WelcomeFile><FollowKeyboardVersion/></Options><Info><Name>{text_presentation(NATIVE_NAME)}</Name><Description>Aksharam GlyphKey</Description><Version>3.0</Version></Info><Files><File><Name>aksharam_glyphkey.kmx</Name><Description>Aksharam GlyphKey</Description><CopyLocation>0</CopyLocation><FileType>.kmx</FileType></File><File><Name>welcome.htm</Name><Description></Description><CopyLocation>0</CopyLocation><FileType>.htm</FileType></File><File><Name>readme.htm</Name><Description></Description><CopyLocation>0</CopyLocation><FileType>.htm</FileType></File><File><Name>aksharam_selection_math.py</Name><Description>Selected Aeon mathematical-body resolver</Description><CopyLocation>0</CopyLocation><FileType>.py</FileType></File><File><Name>aksharam_selection_phonetic.py</Name><Description>Selected Aksharam Shape-of-Sound phonetic resolver</Description><CopyLocation>0</CopyLocation><FileType>.py</FileType></File><File><Name>selection_math_map.json</Name><Description>Registered mathematical bodies</Description><CopyLocation>0</CopyLocation><FileType>.json</FileType></File><File><Name>aksharam_host_controls.py</Name><Description>Aksharam 3.0 host unfolding controls</Description><CopyLocation>0</CopyLocation><FileType>.py</FileType></File><File><Name>unfolding_map.json</Name><Description>Aksharam 3.0 host unfolding controls</Description><CopyLocation>0</CopyLocation><FileType>.json</FileType></File><File><Name>xbindkeys.aksharam</Name><Description>Linux selection bindings</Description><CopyLocation>0</CopyLocation><FileType>.aksharam</FileType></File><File><Name>start_selection.sh</Name><Description>Selection binding launcher for Linux</Description><CopyLocation>0</CopyLocation><FileType>.sh</FileType></File></Files><Keyboards><Keyboard><Name>{text_presentation(NATIVE_NAME)}</Name><ID>aksharam_glyphkey</ID><Version>3.0</Version><Languages><Language ID="und">Aksharam</Language></Languages></Keyboard></Keyboards><Strings/></Package>''',encoding='utf-8')
 
 # Static conformance: each non-conflicting supported trigger is terminal by construction.
 validation=[dict(english=e,whole=d,terminal=(e in terminal),visible=visible.get(e)) for e,d in supported.items()]
