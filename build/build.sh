@@ -35,7 +35,7 @@ python3 "$TESTS/host_controls_conformance.py"
 python3 "$TESTS/host_activation_test.py"
 python3 "$TESTS/host_activation_test.py"
 
-# Retain generated source and compiled artifacts for reproducible 3.0 maintenance.
+# Retain generated source and compiled artifacts for reproducible 4.0 maintenance.
 
 printf 'Linux/Ubuntu installer: %s\n' "$LINUX/aksharam_glyphkey.kmp"
 printf 'Windows installer: %s\n' "$WINDOWS/aksharam_glyphkey.kmp"

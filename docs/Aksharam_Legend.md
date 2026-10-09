@@ -746,7 +746,7 @@ The physical numeric keypad mirrors the Aksharam numerical layer. Keypad arithme
 
 | Keys | Output | Function |
 | --- | :---: | --- |
-| Tab | ⁛∷ | Paragraph Open |
+| Shift+Tab | ⁛∷ | Paragraph Open | (emits Aksharam paragraph-open body, then preserves native Shift+Tab)
 | Shift+Enter | ∷⁛ | Paragraph Close | (places cursor on empty newline AFTER paragraph or statement is Closed "∷⁛ then \n")
 | alt+Shift+2 | 🡡 | North / Up / Ascent |
 | alt+Shift+3 | 🡣 | South / Down / Descent |
@@ -782,6 +782,7 @@ These controls unfold glyphs into mathematical bodies. **Alt+Backspace** travers
 | `.` | ∷ | Parallel Separation |
 | `:` | ∷ | Parallel Separation |
 | `=` | ⧟ | Binding |
+| `+` | ॐ | Astersand / addition |
 | `,` | ⊹ | Joining |
 | `<` | ⁖ | Field Pointer Left |
 | `>` | ჻ | Field Pointer Right |

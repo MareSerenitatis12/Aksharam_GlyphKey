@@ -1,4 +1,4 @@
-# Canonical executable Aksharam keyboard data. Version 3.0.
+# Canonical executable Aksharam keyboard data. Version 4.0.
 # Registered word folds and First Spells retain their authored anatomy.
 
 BASE = {'A': '✡',
